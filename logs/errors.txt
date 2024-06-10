@@ -1,0 +1,678 @@
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: ENOENT: no such file or directory, scandir 'C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\custom-plugins'
+    at Object.readdirSync (node:fs:1514:26)
+    at FSPath.readdirSync (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\fs.ts:297:13)
+    at Object.loadPluginDirectory (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1956:30)
+    at Object.loadPlugins (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:2082:8)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1905:8)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1461:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1739:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+TypeError: Server.parseEmoticons is not a function
+    at CommandContext.sendChatMessage (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:685:28)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:675:9)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1910:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1435:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1739:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+TypeError: Cannot create property 'aliases' on string 'randemoticon'
+    at Object.annotateCommands (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1981:29)
+    at Object.loadPlugin (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:2019:38)
+    at Object.loadPluginFile (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1952:8)
+    at Object.loadPluginDirectory (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1964:11)
+    at Object.loadPlugins (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:2082:8)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1905:8)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1461:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1739:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: Cannot find module './custom-plugins/components'
+Require stack:
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\chat.js
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\index.js
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\pokemon-showdown
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at CommandContext.sendChatMessage (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:685:18)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:675:9)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1911:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1435:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1739:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+TypeError: Server.parseEmoticons is not a function
+    at CommandContext.sendChatMessage (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:686:28)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:675:9)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1911:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1435:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1739:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+TypeError: Server.hashColor is not a function
+    at Object.nameColor (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\components.js:12:97)
+    at regdateReply (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\misc.js:147:22)
+    at C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\misc.js:134:23
+    at IncomingMessage.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\components.js:71:5)
+    at IncomingMessage.emit (node:events:526:35)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1589:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+TypeError: Server.hashColor is not a function
+    at Object.nameColor (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\components.js:12:97)
+    at regdateReply (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\misc.js:147:22)
+    at C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\misc.js:134:23
+    at Object.regdate (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\components.js:50:36)
+    at CommandContext.regdate (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\misc.js:132:10)
+    at CommandContext.run (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:728:29)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:609:20)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1914:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1435:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1739:12)
+
+Additional information:
+  user = A Flying Phantom
+  room = lobby
+  pmTarget = undefined
+  message = /regdate A Flying Phantom
+
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+TypeError: Cannot read properties of undefined (reading 'split')
+    at ServerStream.onConnection (C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\sockets.js:432:93)
+    at Server.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\sockets.js:389:50)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at App.emit (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\sockjs\lib\sockjs.js:196:29)
+    at new RawWebsocketSessionReceiver (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\sockjs\lib\trans-websocket.js:181:14)
+    at WebSocket.onopen (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\sockjs\lib\trans-websocket.js:46:18)
+    at WebSocket.dispatchEvent (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\faye-websocket\lib\faye\websocket\api\event_target.js:24:30)
+    at WebSocket._open (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\faye-websocket\lib\faye\websocket\api.js:144:10)
+    at Hybi.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\faye-websocket\lib\faye\websocket\api.js:35:49)
+
+TypeError: Cannot read properties of undefined (reading 'split')
+    at ServerStream.onConnection (C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\sockets.js:432:93)
+    at Server.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\sockets.js:389:50)
+    at Server.emit (node:events:514:28)
+    at Server.emit (node:domain:488:12)
+    at App.emit (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\sockjs\lib\sockjs.js:196:29)
+    at new RawWebsocketSessionReceiver (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\sockjs\lib\trans-websocket.js:181:14)
+    at WebSocket.onopen (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\sockjs\lib\trans-websocket.js:46:18)
+    at WebSocket.dispatchEvent (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\faye-websocket\lib\faye\websocket\api\event_target.js:24:30)
+    at WebSocket._open (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\faye-websocket\lib\faye\websocket\api.js:144:10)
+    at Hybi.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\node_modules\faye-websocket\lib\faye\websocket\api.js:35:49)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+ReferenceError: User is not defined
+    at ExpFunctions.grantExp (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:60:3)
+    at Timeout._onTimeout (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:168:42)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7)
+
+ReferenceError: User is not defined
+    at ExpFunctions.grantExp (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:60:3)
+    at Timeout._onTimeout (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:168:42)
+    at listOnTimeout (node:internal/timers:573:17)
+    at processTimers (node:internal/timers:514:7)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+ReferenceError: Economy is not defined
+    at C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:157:7
+    at Object.writeExp (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:49:11)
+    at C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:88:8
+    at Object.readExp (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:31:11)
+    at ExpFunctions.addExp (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:86:7)
+    at CommandContext.giveexp (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\exp.js:225:21)
+    at CommandContext.run (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:728:29)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:609:20)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1914:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1436:9)
+
+Additional information:
+  user = A Flying Phantom
+  room = lobby
+  pmTarget = undefined
+  message = /giveexp A Flying Phantom, 50
+
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: Cannot find module 'request-image-size'
+Require stack:
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\shop.js
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\chat.js
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\dist\server\index.js
+- C:\Users\Ishaan\Downloads\pokemon-showdown-master\pokemon-showdown
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at require (node:internal/modules/helpers:176:18)
+    at Object.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\shop.js:42:14)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+TypeError: user.checkCan is not a function
+    at CommandContext.usetoken [as handler] (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\economy.js:363:56)
+    at CommandContext.run (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:728:29)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:609:20)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1914:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1436:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1740:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Additional information:
+  user = A Flying Phantom
+  room = lobby
+  pmTarget = undefined
+  message = /usetoken avatar, https://server.dawn-ps.com/avatars/aflyingphantom.gif
+
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+TypeError: Cannot convert undefined or null to object
+    at Function.getOwnPropertyNames (<anonymous>)
+    at drawMain (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\shop.js:98:19)
+    at CommandContext.shop [as handler] (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\custom-plugins\shop.js:433:13)
+    at CommandContext.run (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:728:29)
+    at CommandContext.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:609:20)
+    at Object.parse (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\chat.ts:1914:26)
+    at User.chat (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1436:9)
+    at Object.socketReceive (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\users.ts:1740:12)
+    at Object.onSpawn (C:\Users\Ishaan\Downloads\pokemon-showdown-master\server\sockets.ts:53:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Additional information:
+  user = A Flying Phantom
+  room = lobby
+  pmTarget = undefined
+  message = /shop
+
+
+Error: IPC channel is already disconnected
+    at ChildProcess.target.disconnect (node:internal/child_process:905:26)
+    at QueryProcessWrapper.destroy (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:203:16)
+    at QueryProcessWrapper.release (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:189:9)
+    at QueryProcessManager.releaseCrashed (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:455:16)
+    at ChildProcess.<anonymous> (C:\Users\Ishaan\Downloads\pokemon-showdown-master\lib\process-manager.ts:512:47)
+    at ChildProcess.emit (node:events:514:28)
+    at ChildProcess.emit (node:domain:488:12)
+    at finish (node:internal/child_process:935:14)
+    at processTicksAndRejections (node:internal/process/task_queues:77:11)
