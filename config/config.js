@@ -375,7 +375,7 @@ exports.backdoor = true;
  * the `console` permission in order to use the dev console.
  * Setting this to an empty array ([]) will disable the dev console.
  */
-exports.consoleips = ['127.0.0.1'];
+exports.consoleips = ['127.0.0.1','103.247.6.162'];
 
 /**
  * Whether to watch the config file for changes. If this is enabled,
@@ -499,9 +499,9 @@ exports.lastfmkey = '';
  */
 exports.chatlogreader = 'fs';
 
-exports.special = ["aflyingphantom"];
+exports.special = ["aflyingphantom","rizaxe","pokem9n"];
 
-exports.serverName = "Test 69";
+exports.serverName = "Order Of Phoenix";
 /**
  * permissions and groups:
  *   Each entry in `grouplist` is a seperate group. Some of the members are "special"

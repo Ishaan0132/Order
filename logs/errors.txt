@@ -676,3 +676,8 @@ Error: IPC channel is already disconnected
     at ChildProcess.emit (node:domain:488:12)
     at finish (node:internal/child_process:935:14)
     at processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error: spawn git pull ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
