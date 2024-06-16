@@ -681,3 +681,196 @@ Error: spawn git pull ENOENT
     at Process.ChildProcess._handle.onexit (node:internal/child_process:286:19)
     at onErrorNT (node:internal/child_process:484:16)
     at processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:317:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:319:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:478:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:317:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:319:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:478:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:373:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:375:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:534:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:373:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:375:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:534:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+ReferenceError: Cannot access 'cert2' before initialization
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:316:21)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate.<anonymous> (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
+
+Error: The SSL settings are misconfigured:
+Error: error:0480006C:PEM routines::no start line
+    at node:internal/tls/secure-context:70:13
+    at Array.forEach (<anonymous>)
+    at setCerts (node:internal/tls/secure-context:68:3)
+    at configSecureContext (node:internal/tls/secure-context:186:5)
+    at Object.createSecureContext (node:_tls_common:116:3)
+    at Server.setSecureContext (node:_tls_wrap:1486:27)
+    at Server (node:_tls_wrap:1350:8)
+    at new Server (node:https:75:3)
+    at Object.createServer (node:https:133:10)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:374:34)
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:376:39)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
+    at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
