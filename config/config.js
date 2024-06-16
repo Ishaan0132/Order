@@ -61,10 +61,7 @@ exports.wsdeflate = {
  *  something.
  * @type {{port: number, options: {key: string, cert: string}} | null}
  */
-exports.ssl = null;
 
-/*
-// example:
 exports.ssl = {
 	port: 443,
 	options: {
@@ -72,7 +69,7 @@ exports.ssl = {
 		cert: './config/ssl/fullchain.pem',
 	},
 };
-*/
+
 
 /*
 Main's SSL deploy script from Let's Encrypt looks like:

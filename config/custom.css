@@ -1,2 +1,7 @@
 /* COLORS START */
 /* COLORS END */
+/* COLORS START */
+[class$="chatmessage-rizaxe"] strong, [class$="chatmessage-rizaxe mine"] strong, [class$="chatmessage-rizaxe highlighted"] strong, [id$="-userlist-user-rizaxe"] strong em, [id$="-userlist-user-rizaxe"] strong, [id$="-userlist-user-rizaxe"] span{
+color: #A020F0 !important;
+}
+/* COLORS END */
