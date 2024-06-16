@@ -291,7 +291,7 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 			let key;
 			try {
 				key = path.resolve('../Order/config/ssl/key.pem');
-				console.log(key)
+				console.log("KEY PATH" + key)
 				if (!fs.statSync(key).isFile()) throw new Error();
 				try {
 					key = fs.readFileSync(key);
