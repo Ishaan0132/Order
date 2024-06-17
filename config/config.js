@@ -62,13 +62,13 @@ exports.wsdeflate = {
  * @type {{port: number, options: {key: string, cert: string}} | null}
  */
 
-exports.ssl = {
+exports.ssl = null /* {
 	port: 8080,
 	options: {
 		key: './config/ssl/key.pem',
 		cert: './config/ssl/fullchain.pem',
 	},
-};
+};*/
 
 
 /*

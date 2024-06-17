@@ -19,6 +19,10 @@ import {crashlogger, ProcessManager, Streams, Repl} from '../lib';
 import {IPTools} from './ip-tools';
 import {ChannelID, extractChannelMessages} from '../sim/battle';
 
+import express from 'express'
+
+const servApp = express();
+
 type StreamWorker = ProcessManager.StreamWorker;
 
 export const Sockets = new class {
@@ -285,7 +289,7 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 
 		// It's optional if you don't need these features.
 
-		this.server = http.createServer();
+		this.server = servApp;
 		this.serverSsl = null;
 		if (config.ssl) {
 			let key;

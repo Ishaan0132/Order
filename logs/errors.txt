@@ -874,3 +874,13 @@ Error: error:0480006C:PEM routines::no start line
     at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:535:21)
     at Immediate._onImmediate (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
     at process.processImmediate (node:internal/timers:478:21)
+
+Error: Bad IP address: '::1'
+    at C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\ip-tools.ts:481:33
+    at new Promise (<anonymous>)
+    at Object.getHost (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\ip-tools.ts:474:10)
+    at Object.lookup (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\ip-tools.ts:54:12)
+    at Object.checkIp (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\punishments.ts:1759:18)
+    at Object.socketConnect (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\users.ts:1651:19)
+    at Object.onSpawn (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\sockets.ts:34:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
