@@ -312,7 +312,7 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 
 			let cert;
 			try {
-				cert = path.resolve('../Order/config/ssl/fullchain.pem');
+				cert = path.resolve('../Order/config/ssl/www_orderofphoenix_me.crt');
 				if (!fs.statSync(cert).isFile()) throw new Error();
 				try {
 					cert = fs.readFileSync(cert);
@@ -331,7 +331,14 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 	
 				try {
 					// In case there are additional SSL config settings besides the key and cert...
-					this.serverSsl = https.createServer({ key, cert});
+					var https_options = {
+						key: key,
+						cert: fs.readFileSync(path.resolve('../Order/config/ssl/www_orderofphoenix_me.crt')),
+						ca: [
+						fs.readFileSync(path.resolve('../Order/config/ssl/www_orderofphoenix_me.ca-bundle'))
+						]
+						};
+					this.serverSsl = https.createServer(https_options);
 				} catch (e: any) {
 					crashlogger(new Error(`The SSL settings are misconfigured:\n${e.stack}`), `Socket process ${process.pid}`);
 				}
