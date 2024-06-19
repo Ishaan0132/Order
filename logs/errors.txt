@@ -884,3 +884,21 @@ Error: Bad IP address: '::1'
     at Object.socketConnect (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\users.ts:1651:19)
     at Object.onSpawn (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\server\sockets.ts:34:11)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at ServerResponse.writeHead (node:_http_server:345:11)
+    at Server.finish (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\node_modules\node-static\lib\node-static.js:117:19)
+    at C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\node_modules\node-static\lib\node-static.js:94:18
+    at C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\node_modules\node-static\lib\node-static.js:337:13
+    at streamFile (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\node_modules\node-static\lib\node-static.js:382:13)
+    at ReadStream.<anonymous> (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\node_modules\node-static\lib\node-static.js:375:17)
+    at ReadStream.emit (node:events:519:28)
+    at ReadStream.emit (node:domain:488:12)
+    at emitCloseNT (node:internal/streams/destroy:147:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+TypeError: this.server.use is not a function
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:389:17)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:495:21)
+    at Immediate.<anonymous> (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)

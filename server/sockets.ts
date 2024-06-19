@@ -289,7 +289,7 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 
 		// It's optional if you don't need these features.
 
-		this.server = servApp;
+		this.server = http.createServer();
 		this.serverSsl = null;
 		if (config.ssl) {
 			let key;
@@ -410,6 +410,7 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 				);
 			}
 		}
+	
 
 		const server = sockjs.createServer(options);
 
