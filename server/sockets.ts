@@ -294,7 +294,8 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 		if (config.ssl) {
 			let key;
 			try {
-				key = path.resolve('../Order/config/ssl/key.pem');
+				key = path.resolve('../Order/server/config/ssl/key.pem');
+				
 				console.log("KEY PATH" + key)
 				if (!fs.statSync(key).isFile()) throw new Error();
 				try {
@@ -312,10 +313,12 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 
 			let cert;
 			try {
-				cert = path.resolve('../Order/config/ssl/www_orderofphoenix_me.crt');
+				cert = path.resolve('../Order/server/config/ssl/www_orderofphoenix_me.crt');
 				if (!fs.statSync(cert).isFile()) throw new Error();
 				try {
 					cert = fs.readFileSync(cert);
+					console.log(cert)
+
 				} catch (e: any) {
 					crashlogger(
 						new Error(`Failed to read the configured SSL certificate PEM file:\n${e.stack}`),
@@ -333,11 +336,10 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 					// In case there are additional SSL config settings besides the key and cert...
 					var https_options = {
 						key: key,
-						cert: fs.readFileSync(path.resolve('../Order/config/ssl/www_orderofphoenix_me.crt')),
-						ca: [
-						fs.readFileSync(path.resolve('../Order/config/ssl/www_orderofphoenix_me.ca-bundle'))
-						]
+						cert: fs.readFileSync(path.resolve('../Order/server/config/ssl/www_orderofphoenix_me.crt')),
+						ca: fs.readFileSync(path.resolve('../Order/server/config/ssl/www_orderofphoenix_me.ca-bundle'))
 						};
+						console.log(https_options)
 					this.serverSsl = https.createServer(https_options);
 				} catch (e: any) {
 					crashlogger(new Error(`The SSL settings are misconfigured:\n${e.stack}`), `Socket process ${process.pid}`);

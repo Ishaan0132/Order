@@ -902,3 +902,9 @@ TypeError: this.server.use is not a function
     at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\server\sockets.js:495:21)
     at Immediate.<anonymous> (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\Order\dist\lib\process-manager.js:707:32)
     at process.processImmediate (node:internal/timers:478:21)
+
+TypeError: Cannot read properties of undefined (reading 'key')
+    at new ServerStream (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\The Order\Order\dist\server\sockets.js:298:34)
+    at RawProcessManager.setupChild [as _setupChild] (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\The Order\Order\dist\server\sockets.js:488:21)
+    at Immediate.<anonymous> (C:\Users\ASSUS\Desktop\Chamber Of Codrets\PS\The Order\Order\dist\lib\process-manager.js:707:32)
+    at process.processImmediate (node:internal/timers:478:21)
