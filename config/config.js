@@ -5,7 +5,7 @@
  *
  * @type {number}
  */
-exports.port = 8000;
+exports.port = 8080;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting
@@ -554,8 +554,25 @@ exports.serverName = "Order Of Phoenix";
  *     - minigame: make minigames (hangman, polls, etc.).
  *     - game: make games.
  */
+
+
+exports.badiranks = ["oneaboveall"];
+
+
 exports.grouplist = [
+
 	{
+		symbol: 'ღ',
+		id: "oneaboveall",
+		name: "One Above All",
+		root: true,
+		globalonly: true,
+		profile: true,
+        inherit:"~"
+	},
+	
+	{
+		
 		symbol: '~',
 		id: "admin",
 		name: "Administrator",
@@ -563,6 +580,7 @@ exports.grouplist = [
 		globalonly: true,
 		profile: true,
 	},
+	
 	{
 		symbol: '&',
 		id: "leader",
