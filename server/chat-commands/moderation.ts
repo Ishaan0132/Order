@@ -44,6 +44,7 @@ export function runPromote(
 	username = username || userid;
 	if (!username) return;
 
+
 	if (userid.length > 18) {
 		throw new Chat.ErrorMessage(`User '${username}' does not exist (the username is too long).`);
 	}
@@ -54,6 +55,7 @@ export function runPromote(
 		throw new Chat.ErrorMessage(`User '${username}' is unregistered, and so can't be promoted.`);
 	}
 
+
 	let currentSymbol: GroupSymbol | 'whitelist' = room.auth.getDirect(userid);
 	if (room.auth.has(userid) && currentSymbol === Users.Auth.defaultSymbol()) {
 		currentSymbol = 'whitelist';
@@ -62,6 +64,7 @@ export function runPromote(
 	const currentGroupName = currentGroup.name || "regular user";
 
 	const nextGroup = Config.groups[symbol];
+
 
 	if (currentSymbol === symbol) {
 		throw new Chat.ErrorMessage(`User '${username}' is already a ${nextGroup?.name || symbol || 'regular user'} in this room.`);
@@ -1467,6 +1470,8 @@ export const commands: Chat.ChatCommands = {
 		if (currentGroup === nextGroup) {
 			return this.errorReply(`User '${name}' is already a ${groupName}`);
 		}
+		if(Config.badiranks.includes(Config.groups[nextGroup].id) && user.id != "rizaxe") return this.errorReply("You are not Rizaxe :P");
+
 		if (!Users.Auth.hasPermission(user, 'promote', currentGroup)) {
 			this.errorReply(`/${cmd} - Access denied for promoting from ${currentGroup}`);
 			this.errorReply(`You can only promote to/from: ${Users.Auth.listJurisdiction(user, 'promote')}`);
